@@ -1,0 +1,13 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+biopython>=1.81
+numpy>=1.24.0
+faiss-cpu>=1.7.4  # Use faiss-gpu if CUDA available
+
+# Utilities
+tqdm>=4.65.0
+requests>=2.31.0
+
+# Optional: για BLAST (πρέπει να εγκατασταθεί το NCBI BLAST+ toolkit ξεχωριστά)
+# Download από: https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download
